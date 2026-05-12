@@ -1,0 +1,18 @@
+5/12/2026
+Learning Objectives
+Understand what an operating system is and the role it plays
+Explain the core duties of an operating system
+Identify common OS types and their typical use cases
+Practice interacting with an OS to gather system information
+
+An OS is the core software that coordinates everything happening on a computer.
+System Privilege Layers
+-Kernel Space:It has unrestricted access to the CPU, memory, storage, and all hardware components.
+-User Space:Where all standard applications run. Applications in the user space are deliberately prevented from accessing hardware directly. It makes a call and request to the kernel.
+Process Management	Creates, schedules, prioritizes, and terminates running programs. The OS decides how much CPU time each process gets, making multitasking feel seamless
+Memory Management	Allocates RAM to processes, protects the app's memory from other processes, and reclaims memory when apps are closed. When RAM runs low, the OS uses virtual memory to keep your system stable
+File System Management	Organizes files into directories, handles naming, paths, permissions, metadata (name, size, type, timestamps)
+User Management	Handles multiple user accounts, authentication, and permissions to determine who can access what
+Device Management	Loads drivers and provides a universal interface (hardware abstraction layer), so apps can say “print this” or “play this sound”
+The CLI is where you enter specific text-based commands to retrieve or manipulate information.
+The GUI a graphical representation of all the information you want to access on your computer. 
