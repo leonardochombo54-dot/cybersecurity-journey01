@@ -1,0 +1,23 @@
+5/13/2026
+Learning Objectives
+Understand what the Linux terminal is and what it's used for.
+Feel comfortable interacting with the Linux environment.
+Navigate through the Linux filesystem with basic commands.
+
+When you first open a terminal, you might not know what part of the system you're in. Use this command to find out: pwd
+Now that you know where you are, let's see what files and folders are here: ls
+This lists the content of the current directory. If we need more details, we can try: ls -l
+In order to get the hidden files in the directory, we can append the command to ls -al
+To walk through the filesystem, we can use: cd <directory>
+Here's a simple version of the command: find <starting_point> -name <filename>
+To read this file, we will run the command cat mission_brief.txt
+
+The simplest command in Linux also happens to be one of the most useful: whoami
+To see details about the operating system, kernel version, and architecture, use: uname -a
+In real-world environments, you’ll often need to check disk usage or available space, especially before running tools or analyzing logs. A simple command for readable output is: df -h. The -h means "human readable"
+dev/root is the main disk of the system with --G total, 12G used, <REDACTED>G free, and is 17% full.
+tmpfs entries are temporary filesystems stored in RAM, not on the physical disk.
+/dev/shm is a shared memory area with 1.9G available and 0 used.
+/run/user/114 is similar temporary storage for another system user, also 387M total and mostly empty.
+Linux stores configuration and informational files in the /etc directory.
+Let’s now use cat to read the os-release
