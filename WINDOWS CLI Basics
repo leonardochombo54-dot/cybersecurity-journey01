@@ -1,0 +1,19 @@
+5/14/2026
+Learning Objectives
+By the end of this room, you will be able to:
+
+Use the Windows command line confidently
+Navigate folders without clicking
+Find files when you only know their name
+Read files using the terminal
+Collect basic system and network information
+
+ow, list the contents of the current directory using the command: dir
+To show everything, including hidden items, run: dir /a
+Let's use the cd command to navigate through the folders. We can use the format cd folder_name to move to the specified folder. The command cd Documents will move us to the Documents folder, as shown below. To move back one level, we can use the (cd ..).
+Use the following command: dir /s task_brief.txt. The /s flag tells Windows to search all subfolders starting from your current directory and show you the full path if the file exists.
+
+Who am I logged in as? the following command:whoami. This command prints the username of the account you’re currently logged into.
+What machine is this? To see the computer’s name, run: hostname
+What version of Windows is it running? look at details about the operating system itself. Run:systeminfo
+How is it connected to the network? look at basic network information. Run: ipconfig
