@@ -3,7 +3,7 @@ Goal: Land a SOC Analyst role by early 2027
 Background: Career changer from Salinas, CA. Bilingual English/Spanish. Self-taught mindset.
 Current Progress
 
-✅ TryHackMe Pre-Security Path — 62% complete
+✅ TryHackMe Pre-Security Path — 78% complete
 ⬜ Cyber Security 101
 ⬜ CompTIA Security+
 ⬜ TryHackMe SOC Level 1
