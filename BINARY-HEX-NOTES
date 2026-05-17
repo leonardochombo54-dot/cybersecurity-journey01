@@ -1,0 +1,45 @@
+# Binary & Hex Reference Table
+
+## Binary Powers
+| Position | 8th | 7th | 6th | 5th | 4th | 3rd | 2nd | 1st |
+|---|---|---|---|---|---|---|---|---|
+| Power | 2⁷ | 2⁶ | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
+| Value | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+
+## Hex Powers
+| Position | 4th | 3rd | 2nd | 1st |
+|---|---|---|---|---|
+| Power | 16³ | 16² | 16¹ | 16⁰ |
+| Value | 4096 | 256 | 16 | 1 |
+
+## Hex Letter Values
+| A=10 | B=11 | C=12 | D=13 | E=14 | F=15 |
+
+## Key Concepts
+- First digit = general area (most significant)
+- Second digit = precise location
+- Binary is base-2, Hex is base-16
+- One hex digit = 4 binary digits
+- FF in hex = 255 in decimal = 11111111 in binary# Binary & Hex Reference Table
+
+## Binary Powers
+| Position | 8th | 7th | 6th | 5th | 4th | 3rd | 2nd | 1st |
+|---|---|---|---|---|---|---|---|---|
+| Power | 2⁷ | 2⁶ | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
+| Value | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+
+## Hex Powers
+| Position | 4th | 3rd | 2nd | 1st |
+|---|---|---|---|---|
+| Power | 16³ | 16² | 16¹ | 16⁰ |
+| Value | 4096 | 256 | 16 | 1 |
+
+## Hex Letter Values
+| A=10 | B=11 | C=12 | D=13 | E=14 | F=15 |
+
+## Key Concepts
+- First digit = general area (most significant)
+- Second digit = precise location
+- Binary is base-2, Hex is base-16
+- One hex digit = 4 binary digits
+- FF in hex = 255 in decimal = 11111111 in binary
