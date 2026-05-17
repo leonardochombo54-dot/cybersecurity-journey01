@@ -1,0 +1,53 @@
+5/16/2026
+Our First Eight Colors
+By combining different amounts of red, green, and blue lights, you can get any color you like. In computer colors, think of it like three knobs, and each knob controls one of the three colors.
+The red light can be either on or off
+The green light can be either on or off
+The blue light can be either on or off
+These states give us 2 × 2 × 2 = 8, that’s eight different colors.
+000	All colors are off	Black
+001	Only blue is on	Blue
+010	Only green is on	Green
+100	Only red is on	Red
+011	Green and blue are on	Cyan
+101	Red and blue are on	Magenta
+110	Red and green are on	Yellow
+111	All colors are on	White
+HEXADECIMAL REPRESENTATION
+0	=0000
+1	=0001
+2	=0010
+3	=0011
+4	=0100
+5	=0101
+6	=0110
+7	=0111
+8	=1000
+9	=1001
+A	=1010
+B	=1011
+C	=1100
+D	=1101
+E	=1110
+F	=1111
+
+In real-life applications, a color is represented in 24 bits, i.e., 3 bytes
+Each byte can represent 256 different values
+Each of the three bytes specifies the intensity of the red, green, and blue lights
+Every 4 bits are represented by one hexadecimal digit
+Each byte is represented as two hexadecimal digits
+
+Low and High in voltage range (example: transistor-transistor logic)
+North and South in magnetic polarity (example: hard disk drives)
+Light presence (example: fiber optics)Low and High in voltage range (example: transistor-transistor logic)
+North and South in magnetic polarity (example: hard disk drives)
+Light presence (example: fiber optics)
+
+he binary (base-2) system can be expressed similarly to what we wrote earlier, discussing the decimal (base-10) system. The key differences are that the binary system is limited to two digits, 0 and 1, and that everything is a power of 2. Let’s consider a couple of examples.
+The binary number 1001 can be expressed as follows: 1001 = 1 × 23 + 0 × 22 + 0 × 21 + 1 × 20 = 1 × 8 + 0 × 4 + 0 × 2 + 1 × 1 = 8 + 0 + 0 + 1 = 9. We just demonstrated how to write 9 in binary.
+ As we’ve seen earlier, a hexadecimal digit ranges between 0 and F. By taking a closer look at the table below, you will notice that a hexadecimal digit ranges between 0 and 15 in the decimal system. To replace 10, 11, 12, 13, 14, and 15 each with a single letter/digit, A, B, C, D, E, and F are chosen. The table below is something you would encounter in any tutorial or chapter on the hexadecimal system.
+
+Decimal (Base-10) system: This is the system we use in our everyday life.
+Binary (Base-2) system: Computers understand two states, which are encoded as 0 and 1.
+Hexadecimal (Base-16) system: Every 4 binary digits (bits) can be grouped as one hexadecimal digit. A hexadecimal digit ranges between 0 and F.
+Octal (Base-8) system: Every 3 binary digits (bits) can be grouped as one octal digit. An octal digit ranges between 0 and 7. This one is less commonly encountered on computer systems.
