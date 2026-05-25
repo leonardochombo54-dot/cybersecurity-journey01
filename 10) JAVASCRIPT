@@ -1,4 +1,4 @@
-5/24/2026
+5/25/2026
 
 We use let to declare variables, whose value can change throughout the program; however, we use const to declare constants, whose value cannot change throughout the program.
 
