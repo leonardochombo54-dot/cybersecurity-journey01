@@ -1,0 +1,19 @@
+5/24/2026
+
+We use let to declare variables, whose value can change throughout the program; however, we use const to declare constants, whose value cannot change throughout the program.
+
+The secret holds the number that we will try to find by guessing, and it should not change. As already mentioned, to declare a constant, we use the keyword const, for example, const secret = 12. To ensure that secret gets a new random value each time we run the program, we need to use JavaScript’s Math.random() method
+Math.random() gives a random decimal between 0 (inclusive) and 1 (not including 1). Example: 0.372.
+* 20 stretches that range from 0 to (almost) 20. Example: 7.44.
+Math.floor() removes the decimal by rounding down. Example: 7.44 becomes 7.
++ 1 shifts the range from 0–19 to 1–20.
+As a result, secret ends up being 1, 2, 3, …, up to 20.
+Once the secret number is picked, the program should inform the user that this step is complete. To display on the screen, console.log() can be used. In the example expression below, the string included between the double quotes will be displayed on screen.
+we set our variables and constants; moreover, we picked a random secret number for the user to guess. Now, we need to prompt the user to take a guess and enter a number. In the first line, we wait for the user to input a value and save it in text. In the second line, we parse the text as an integer of base 10 using parseInt(text, 10). The parseInt() method takes the user input and converts it from text into an integer value
+The above if, else if, and else statements will execute as follows:
+
+if (guess < 1 || guess > 20): If the guess is less than 1 or the guess is greater than 20, then use console.log() to tell the user that the “number is out of range”. Note that || represents "or" in JavaScript.
+else if (guess < secret): The else means that if the previous condition is not true, run this statement. if (guess < secret) will evaluate whether the guess is less than the secret. If this is the case, it will use console.log() to display “too low” on the screen
+else if (guess > secret): Similarly, the else will ensure that this statement won’t run unless the previous if has evaluated to false. Assuming that the last if condition evaluated to false, if (guess > secret) will assess its condition. In the case that guess is greater than secret, the console.log() displays “too high”
+Finally, we see an else sitting by itself. This else means that if all previous if conditions are evaluated to false, the enclosed statement will execute. As we established earlier, if all previous conditions are evaluated to false, it means that the user guessed the number.
+One way to achieve this is to keep prompting the user to make new guesses as long as their guess is wrong, i.e., while their guess is not equal to secret. That’s quite easy to express in JavaScript: while (guess !== secret). The !== means “not equal”. This is called a while loop and is written as shown below:
