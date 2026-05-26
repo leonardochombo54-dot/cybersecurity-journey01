@@ -1,0 +1,16 @@
+5/25/2026
+
+a database as a digital notebook that never runs out of pages. Unlike a paper notebook, a database allows the computer to search, count, and sort information very quickly.
+We start with the most basic query. When we use SELECT *, the * symbol means all columns. The word FROM tells the database which table to use.
+ We can choose specific columns by listing them after SELECT.
+The WHERE keyword filters rows. It keeps only rows that match a condition
+Hint: If you are not sure which drink names exist, run: SELECT * FROM Menu;
+The ORDER BY keyword sorts results by a column. By default, results are sorted in ascending order (lowest to highest).
+To sort in reverse order (highest to lowest), add DESC.
+SELECT – choose what data to display
+
+FROM – choose where the data comes from
+
+WHERE – filter records based on a condition
+
+ORDER BY – sort results
