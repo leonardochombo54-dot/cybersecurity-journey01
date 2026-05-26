@@ -1,20 +1,24 @@
-Cybersecurity Journey — Leonardo Chombo Jr
-Goal: Land a SOC Analyst role by early 2027
-Background: Career changer from Salinas, CA. Bilingual English/Spanish. Self-taught mindset.
-Current Progress
+# Network Engineering Journey — Leonardo Chombo Jr
 
-✅ TryHackMe Pre-Security Path — 78% complete
-⬜ Cyber Security 101
-⬜ CompTIA Security+
-⬜ TryHackMe SOC Level 1
+**Goal:** Land a Network Engineer role by mid 2027
 
-Certifications Targeting
+**Background:** Career changer from Salinas, CA. Bilingual English/Spanish. Self-taught mindset. PC builder.
 
-CompTIA Security+ SY0-701 (Target: October 2026)
-TryHackMe SAL1
+## Current Progress
+- ✅ TryHackMe Pre-Security Path — 89% complete
+- ⬜ Cisco CCNA Certification
+- ⬜ MPC Associate in Computer Networking & Security
+- ⬜ First Network Technician Role
 
-Tools & Skills Learning
+## Certifications Targeting
+- Cisco CCNA (Target: Early 2027)
+- MPC SEC0 — TryHackMe Pre-Security
 
-Networking fundamentals
-DNS, HTTP, Linux, Windows
-SOC operations
+## Tools & Skills Learning
+- Networking fundamentals
+- DNS, HTTP, Linux, Windows
+- Binary, Hex, Data Encoding
+- Cisco Packet Tracer (coming soon)
+
+## Career Goal
+Network Technician → Network Administrator → Network Engineer → Network Security Engineer
