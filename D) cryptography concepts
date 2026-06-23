@@ -1,0 +1,42 @@
+06/22/2026
+Plaintext - A message you can read normally. Like HELLO or Patient name: Alice Smith.
+
+Ciphertext - A scrambled version that's not supposed to make sense. Like KHOOR or Sdwlhqw qdph: Dolfh Vplwk.
+
+Key - The secret ingredient that controls how scrambling and unscrambling work. Think of it as a password that the algorithm uses.
+
+Algorithm - The public recipe—the set of steps that explain how to use the key on the message. Everyone can know the algorithm. Security comes from keeping the key secret.
+
+The Caesar cipher shifts each letter in your message by a fixed number of positions in the alphabet. That fixed number is your key.A Caesar cipher wheel showing how letters are shifted by a key of +3. The outer ring lists the plaintext alphabet, and the inner ring shows the corresponding ciphertext letters three positions ahead.
+
+Let's say the key is 3:
+
+A shifts forward 3 spots to become D
+B becomes E
+C becomes F
+and so on.
+X becomes A (it wraps around to the start)
+Y becomes B
+Z becomes C
+If Alice wants to encrypt HELLO with a key of 3:
+
+H → K
+E → H
+L → O
+L → O
+O → R
+So HELLO becomes KHOOR.
+
+To decrypt KHOOR, Bob shifts each letter backwards by 3:
+
+K → H
+H → E
+O → L
+O → L
+R → O
+He gets HELLO again. Magic? Nope. Math.
+
+Asymmetric encryption uses two mathematically linked keys:
+
+A public key that anyone can know and use.
+A private key that only one person keeps secret.
